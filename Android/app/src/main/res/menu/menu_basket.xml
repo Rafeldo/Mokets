@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.panaceasoft.mokets.activities.BasketActivity">
+
+    <item
+        android:id="@+id/action_payment_option"
+        android:title=""
+        android:icon="@drawable/ic_choose_white"
+        android:orderInCategory="1"
+        app:showAsAction="always" />
+</menu>

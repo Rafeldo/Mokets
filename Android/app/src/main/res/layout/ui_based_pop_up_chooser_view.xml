@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout
+        android:id="@+id/mLayout"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+
+
+        >
+        <TextView
+            android:id="@+id/mText"
+            android:layout_marginLeft="@dimen/space_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:textSize="@dimen/body1"
+            android:text="COLOR" />
+
+        <Spinner
+            android:layout_alignParentRight="true"
+            android:id="@+id/audio_routing_spinner"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+            android:layout_alignParentTop="true"
+            android:scaleType="fitXY"
+            android:spinnerMode="dropdown" />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_alignParentBottom="true"
+            android:layout_height="0.6dp"
+             />
+    </RelativeLayout>
+</merge>

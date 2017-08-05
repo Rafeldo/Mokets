@@ -1,0 +1,223 @@
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/coordinator_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <android.support.design.widget.AppBarLayout
+            android:id="@+id/app_bar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+            <android.support.v7.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                android:background="?attr/colorPrimary"
+                app:layout_scrollFlags="scroll|enterAlways"
+                app:popupTheme="@style/ThemeOverlay.AppCompat.Light" />
+
+        </android.support.design.widget.AppBarLayout>
+
+        <!--Stripe-->
+        <LinearLayout
+            android:id="@+id/stripe_payment"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/space_13"
+            android:orientation="vertical"
+            android:background="@color/linearBackgroundColor"
+            android:layout_marginLeft="@dimen/space_1"
+            android:layout_marginRight="@dimen/space_1"
+            android:layout_marginTop="@dimen/space_1"
+            android:padding="@dimen/space_1">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_gravity="center_horizontal"
+                    android:layout_width="@dimen/icon_size"
+                    android:layout_height="@dimen/icon_size"
+                    android:src="@drawable/ic_credit_card"
+                    android:id="@+id/user_photo"
+                    />
+
+                <TextView
+                    android:id="@+id/stripe_title"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/textColorPrimary"
+                    android:paddingLeft="@dimen/space_1"
+                    android:layout_toRightOf="@+id/user_photo"
+                    android:layout_alignTop="@+id/user_photo"
+                    android:text="@string/stripe"
+                    android:textSize="@dimen/small_title"
+                    android:textStyle="bold"
+                    />
+
+            </RelativeLayout>
+
+            <include layout="@layout/ui_line_black"/>
+
+            <TextView
+                android:id="@+id/stripe_desc"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/textColorPrimary"
+                android:text="@string/stripe_desc"
+                android:textSize="@dimen/small_title"
+                android:paddingTop="@dimen/space_2"
+                />
+
+            <Button
+                android:id="@+id/btn_go_stripe"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="@string/go"
+                android:layout_marginTop="@dimen/space_2"
+                />
+
+
+        </LinearLayout>
+
+        <!--Bank Transfer-->
+        <LinearLayout
+            android:id="@+id/bank_payment"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/space_13"
+            android:orientation="vertical"
+            android:background="@color/linearBackgroundColor"
+            android:layout_marginLeft="@dimen/space_1"
+            android:layout_marginRight="@dimen/space_1"
+            android:layout_marginTop="@dimen/space_1"
+            android:padding="@dimen/space_1">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_gravity="center_horizontal"
+                    android:layout_width="@dimen/icon_size"
+                    android:layout_height="@dimen/icon_size"
+                    android:src="@drawable/ic_bank"
+                    android:id="@+id/bank"
+                    />
+
+                <TextView
+                    android:id="@+id/bank_title"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/textColorPrimary"
+                    android:paddingLeft="@dimen/space_1"
+                    android:layout_toRightOf="@+id/bank"
+                    android:layout_alignTop="@+id/bank"
+                    android:text="@string/bank_transfer"
+                    android:textSize="@dimen/small_title"
+                    android:textStyle="bold"
+                    />
+
+            </RelativeLayout>
+
+            <include layout="@layout/ui_line_black"/>
+
+            <TextView
+                android:id="@+id/bank_desc"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/textColorPrimary"
+                android:text="@string/bank_desc"
+                android:textSize="@dimen/small_title"
+                android:paddingTop="@dimen/space_2"
+                />
+
+            <Button
+                android:id="@+id/btn_go_bank"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="@string/go"
+                android:layout_marginTop="@dimen/space_2"
+                />
+
+
+        </LinearLayout>
+
+        <!--Cash ON Delivery-->
+
+        <LinearLayout
+            android:id="@+id/cod_payment"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/space_13"
+            android:orientation="vertical"
+            android:background="@color/linearBackgroundColor"
+            android:layout_marginLeft="@dimen/space_1"
+            android:layout_marginRight="@dimen/space_1"
+            android:layout_marginTop="@dimen/space_1"
+            android:padding="@dimen/space_1">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_gravity="center_horizontal"
+                    android:layout_width="@dimen/icon_size"
+                    android:layout_height="@dimen/icon_size"
+                    android:src="@drawable/ic_cod2"
+                    android:id="@+id/cod"
+                    />
+
+                <TextView
+                    android:id="@+id/cod_title"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/textColorPrimary"
+                    android:paddingLeft="@dimen/space_1"
+                    android:layout_toRightOf="@+id/cod"
+                    android:layout_alignTop="@+id/cod"
+                    android:text="@string/cod"
+                    android:textSize="@dimen/small_title"
+                    android:textStyle="bold"
+                    />
+
+            </RelativeLayout>
+
+            <include layout="@layout/ui_line_black"/>
+
+            <TextView
+                android:id="@+id/cod_desc"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/textColorPrimary"
+                android:text="@string/cod_desc"
+                android:textSize="@dimen/small_title"
+                android:paddingTop="@dimen/space_2"
+                />
+
+            <Button
+                android:id="@+id/btn_go_cod"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="@string/go"
+                android:layout_marginTop="@dimen/space_2"
+                />
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</android.support.design.widget.CoordinatorLayout>
+

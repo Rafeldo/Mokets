@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="@dimen/space_10"
+        android:id="@+id/cv"
+        card_view:cardBackgroundColor="@android:color/white"
+        card_view:cardElevation="2sp"
+        card_view:cardUseCompatPadding="true">
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:paddingBottom = "@dimen/space_1"
+            >
+
+            <ImageView
+                android:id="@+id/item_image"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentRight="true"
+                android:scaleType="fitXY"
+                android:src="@drawable/placeholder"
+                android:adjustViewBounds="true"/>
+
+
+            <TextView
+                android:id="@+id/item_name"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/small_title"
+                android:background="@android:color/white"
+                android:paddingTop = "@dimen/space_1"
+                android:paddingBottom = "@dimen/space_1"
+                android:paddingLeft="@dimen/space_mini_4"
+                android:paddingRight="@dimen/space_mini_2"
+                android:text="@string/shop_name"
+                android:textColor="@android:color/black"
+                android:layout_below="@id/item_image"
+                />
+
+            <View
+                android:id = "@+id/line_break"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/line_height"
+                android:background="@color/lineColor"
+                android:layout_below="@+id/item_name"
+                android:layout_marginBottom="@dimen/space_1"
+                />
+
+
+            <ImageView
+                android:id="@+id/like_icon"
+                android:layout_width="@dimen/icon_size"
+                android:layout_height="@dimen/icon_size"
+                android:src="@drawable/ic_thumb_up"
+                android:layout_below="@id/line_break"
+                android:paddingLeft="@dimen/space_mini_4"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/like_count"
+                android:layout_toRightOf="@+id/like_icon"
+                android:textColor="@android:color/black"
+                android:text="10"
+                android:layout_below="@+id/line_break"
+
+                />
+
+            <ImageView
+                android:id="@+id/review_icon"
+                android:layout_width="@dimen/icon_size"
+                android:layout_height="@dimen/icon_size"
+                android:src="@drawable/ic_comment"
+                android:layout_below="@id/line_break"
+                android:paddingLeft="@dimen/space_mini_3"
+                android:layout_toRightOf="@id/like_count"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/review_count"
+                android:layout_toRightOf="@+id/review_icon"
+                android:textColor="@android:color/black"
+                android:text="10"
+                android:layout_below="@+id/line_break"
+                />
+
+
+        </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>

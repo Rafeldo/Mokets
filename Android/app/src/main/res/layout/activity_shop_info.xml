@@ -1,0 +1,149 @@
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:wheel="http://schemas.android.com/tools"
+    android:id="@+id/coordinator_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true">
+
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/app_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:layout_scrollFlags="scroll|enterAlways"
+            app:popupTheme="@style/ThemeOverlay.AppCompat.Light" />
+
+    </android.support.design.widget.AppBarLayout>
+
+    <ScrollView
+        android:layout_marginTop="?attr/actionBarSize"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+        <ImageView
+            android:id="@+id/iv_shop_image"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scaleType="fitXY"
+            android:background="@color/colorPrimaryDark"
+            android:minHeight="@dimen/space_10"
+
+            />
+
+        <TextView
+            android:id="@+id/tv_shop_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/title"
+            android:gravity="center_horizontal"
+            android:layout_marginTop="@dimen/space_2"
+            android:text="Shop Name"/>
+
+        <TextView
+            android:id="@+id/tv_description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/space_1"
+            android:paddingLeft="@dimen/space_1"
+            android:paddingRight="@dimen/space_1"
+            android:gravity="center"
+            android:text="Description "/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/space_2"
+            android:orientation="horizontal">
+            <ImageView
+                android:id="@+id/iv_icon_phone"
+                android:layout_width="@dimen/icon_size"
+                android:layout_height="@dimen/icon_size"
+                android:tint="@color/textColorSecondary"
+                android:src="@drawable/ic_local_phone_black"
+                android:layout_marginLeft="@dimen/space_2"/>
+
+            <TextView
+                android:id="@+id/tv_phone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingRight="@dimen/space_2"
+                android:paddingLeft="@dimen/space_1"
+                android:layout_gravity="center"
+                android:text="092323423423"
+                android:onClick="doPhoneCall"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/space_1"
+            android:orientation="horizontal">
+            <ImageView
+                android:id="@+id/iv_icon_email"
+                android:layout_width="@dimen/icon_size"
+                android:layout_height="@dimen/icon_size"
+                android:tint="@color/textColorSecondary"
+                android:src="@drawable/ic_email_black"
+                android:layout_marginLeft="@dimen/space_2"/>
+            <TextView
+                android:id="@+id/tv_email"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="@dimen/space_1"
+                android:paddingRight="@dimen/space_2"
+                android:layout_gravity="center"
+                android:text="email@mail.com"
+                android:onClick="doEmail"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/space_1"
+            android:layout_marginBottom="@dimen/space_3"
+            android:orientation="horizontal">
+            <ImageView
+                android:id="@+id/iv_icon_address"
+                android:layout_width="@dimen/icon_size"
+                android:layout_height="@dimen/icon_size"
+                android:src="@drawable/ic_bank"
+                android:layout_marginLeft="@dimen/space_2"/>
+
+            <TextView
+                android:id="@+id/tv_address"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="@dimen/space_1"
+                android:paddingTop="@dimen/space_mini_3"
+                android:paddingRight="@dimen/space_2"
+                android:layout_gravity="center"
+                android:text="Address"/>
+            </LinearLayout>
+
+        <com.google.android.gms.maps.MapView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/space_13">
+
+        </com.google.android.gms.maps.MapView>
+
+
+    </LinearLayout>
+
+    </ScrollView>
+
+
+</android.support.design.widget.CoordinatorLayout>
+

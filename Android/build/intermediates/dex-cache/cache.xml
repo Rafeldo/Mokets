@@ -1,0 +1,356 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="C:\Users\User\.android\build-cache\4494f0f086bff9e9b8780a12a3af5752465dc9fc\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="618485fef3ebe12127f7622abbc9b5b39057b5c2">
+        <dex dex="D:\FILE RAFELDO BARU\SOURCES MOBILE\moketsmobile_v105\Mokets_Android_MainFile\Mobile Source\Mokets\app\build\intermediates\pre-dexed\debug\classes_104ce238c9d7a7ee0629108c0b524e8737695320.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\User\.android\build-cache\56a366e6bbec09ff801f9e7136a33da98ae980fa\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="fc29308a7a8f6d4407b34634eb48fb8b817f9b23">
+        <dex dex="D:\FILE RAFELDO BARU\SOURCES MOBILE\moketsmobile_v105\Mokets_Android_MainFile\Mobile Source\Mokets\app\build\intermediates\pre-dexed\debug\classes_ad5b06e437c48b14e2ebf048a7b5bed5981cb3bb.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\User\.android\build-cache\1af12d48d23aaf07f004a79be260f858aaee62c2\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="2f7e6e2dad1bccaf68a8820820adc6c0d5b96d37">
+        <dex dex="D:\FILE RAFELDO BARU\SOURCES MOBILE\moketsmobile_v105\Mokets_Android_MainFile\Mobile Source\Mokets\app\build\intermediates\pre-dexed\debug\classes_132fd7e3fd868ca1433762cfb04133c1ae87d463.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\User\.android\build-cache\029d2af0014584c2b2e62d451dca319256e761ca\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="5640136cf422060a7077e2c02d9a231d7c76f959">
+        <dex dex="D:\FILE RAFELDO BARU\SOURCES MOBILE\moketsmobile_v105\Mokets_Android_MainFile\Mobile Source\Mokets\app\build\intermediates\pre-dexed\debug\classes_b17527351aad160884d5344642d26eecb072568c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\User\.gradle\caches\modules-2\files-2.1\com.jakewharton\butterknife\7.0.1\d5d13ea991eab0252e3710e5df3d6a9d4b21d461\butterknife-7.0.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d5d13ea991eab0252e3710e5df3d6a9d4b21d461">
+        <dex dex="D:\FILE RAFELDO BARU\SOURCES MOBILE\moketsmobile_v105\Mokets_Android_MainFile\Mobile Source\Mokets\app\build\intermediates\pre-dexed\debug\butterknife-7.0.1_d4cc9f5a8545e1c1be9ffec7eb58ce08256b2716.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\User\.android\build-cache\458ac69e56206c94a0a6b44d35bf9abd62e922b9\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="ece40b09e9d4d488bc270cf6af5a9af73bc1cfa3">
+        <dex dex="D:\FILE RAFELDO BARU\SOURCES MOBILE\moketsmobile_v105\Mokets_Android_MainFile\Mobile Source\Mokets\app\build\intermediates\pre-dexed\debug\classes_30abfa5339b033681970b0a0ad3eec0e6338b775.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\User\.android\build-cache\cfc49fb8f8352662c3f468d90dd7f292406cba9f\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="894922f67adeaaef51f077a29e315da21a3382d3">
+        <dex dex="D:\FILE RAFELDO BARU\SOURCES MOBILE\moketsmobile_v105\Mokets_Android_MainFile\Mobile Source\Mokets\app\build\intermediates\pre-dexed\debug\classes_4f772fe3e75567768d62816d853f2d4b4616fcd7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\User\.android\build-cache\abf8b555acbb339ed06308f3d2f04bc980b6238a\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="147edbec6bcea71fd675ecc63cae3319637ec2b4">
+        <dex dex="D:\FILE RAFELDO BARU\SOURCES MOBILE\moketsmobile_v105\Mokets_Android_MainFile\Mobile Source\Mokets\app\build\intermediates\pre-dexed\debug\classes_b8908cb6c47c6108a93d984a65a2ff03c77e475e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\User\.android\build-cache\1244763e759ef1bead43afc3eb64ff6e860d2cae\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="3bd97cfefd783e9de1dd1c30574a6adb44b4409b">
+        <dex dex="D:\FILE RAFELDO BARU\SOURCES MOBILE\moketsmobile_v105\Mokets_Android_MainFile\Mobile Source\Mokets\app\build\intermediates\pre-dexed\debug\classes_997a216f92a9258437889f01a645b45c223e354c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\User\.android\build-cache\28d9b6d930dad95b1588892c3e4d765101a37147\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="59a16a4a42d25b2c243dd1e8aea87d06895b4a06">
+        <dex dex="D:\FILE RAFELDO BARU\SOURCES MOBILE\moketsmobile_v105\Mokets_Android_MainFile\Mobile Source\Mokets\app\build\intermediates\pre-dexed\debug\classes_91efd0eb70596779c23152b2e9ae85a2db5cb608.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\User\.android\build-cache\1af12d48d23aaf07f004a79be260f858aaee62c2\output\jars\libs\internal_impl-24.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="fcaf463e10e69c1923ccf1edeba3b4196d239e00">
+        <dex dex="D:\FILE RAFELDO BARU\SOURCES MOBILE\moketsmobile_v105\Mokets_Android_MainFile\Mobile Source\Mokets\app\build\intermediates\pre-dexed\debug\internal_impl-24.0.0_a396627bd5738ca37faf65c9e44a463ecc1c3634.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\User\.android\build-cache\2cafb2e8ee274bb4ffc42bf8b9b058ccda07b0da\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="dde1ea8573633db3da4e8c42d541bfa7d03d6720">
+        <dex dex="D:\FILE RAFELDO BARU\SOURCES MOBILE\moketsmobile_v105\Mokets_Android_MainFile\Mobile Source\Mokets\app\build\intermediates\pre-dexed\debug\classes_cacfc96d1cf2b549a573474a5e2ee8fa67bfe4b5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\User\.android\build-cache\2118cff4aeda2a0feded101516928a7ea850392f\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="18b5697c65c4fe5b7381613b8b8ae9ac52e26fa7">
+        <dex dex="D:\FILE RAFELDO BARU\SOURCES MOBILE\moketsmobile_v105\Mokets_Android_MainFile\Mobile Source\Mokets\app\build\intermediates\pre-dexed\debug\classes_b45b6606702ed1ed42f082ec37196dc28972aadf.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\User\.android\build-cache\4632fa2adb3fd6f27e44a23e5c58b1103a712b06\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="8dd49930e4f9dde1a42d37e362b9fea8b1b69c0d">
+        <dex dex="D:\FILE RAFELDO BARU\SOURCES MOBILE\moketsmobile_v105\Mokets_Android_MainFile\Mobile Source\Mokets\app\build\intermediates\pre-dexed\debug\classes_7fe2820c9dea38b328835ea3e97e6986febe9ea4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\User\.android\build-cache\12c3f9b732e2533c2e4f4bdeecd65f5c45f73a3c\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="b15f898c9047f9d612a63000126b485dd024eaac">
+        <dex dex="D:\FILE RAFELDO BARU\SOURCES MOBILE\moketsmobile_v105\Mokets_Android_MainFile\Mobile Source\Mokets\app\build\intermediates\pre-dexed\debug\classes_140c072f878337adf8f549604b69f4977e48c349.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\User\.android\build-cache\62167c3bdd2cd091eed34fd43309b20459f6bc73\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="e70f608219ed6b974644c333249ab2bb7b71de98">
+        <dex dex="D:\FILE RAFELDO BARU\SOURCES MOBILE\moketsmobile_v105\Mokets_Android_MainFile\Mobile Source\Mokets\app\build\intermediates\pre-dexed\debug\classes_7837953310cc4f3cc0738f20dc473cb2e9e3de30.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\User\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\25.1.0\support-annotations-25.1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="64cb6b229a8bdfd907bc8dd46839a0053e4c018d">
+        <dex dex="D:\FILE RAFELDO BARU\SOURCES MOBILE\moketsmobile_v105\Mokets_Android_MainFile\Mobile Source\Mokets\app\build\intermediates\pre-dexed\debug\support-annotations-25.1.0_f9d4e657b6064ffb12565af434ffd35176336dcb.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\User\.android\build-cache\14beee8cd0c0e17a93a628b424342eea922f3aa6\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="4b6d9b70f93bbeb872d0948bc064ae3f3f2bcbac">
+        <dex dex="D:\FILE RAFELDO BARU\SOURCES MOBILE\moketsmobile_v105\Mokets_Android_MainFile\Mobile Source\Mokets\app\build\intermediates\pre-dexed\debug\classes_8fb0106e79d1a2145987662c0de01cfcdfa64efc.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\User\.android\build-cache\ceeccb70db06cfae208f602a0410eb3f466e3cd6\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="3b7173b3df4c7029699919414400041f64519e34">
+        <dex dex="D:\FILE RAFELDO BARU\SOURCES MOBILE\moketsmobile_v105\Mokets_Android_MainFile\Mobile Source\Mokets\app\build\intermediates\pre-dexed\debug\classes_d58718a1abfbaf565c2276bd207f7356c2ac1792.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\User\.android\build-cache\191b9a8b1dba09d2de5ff6543107f0bbf1c686d5\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="a440fb3fec30ff925e9f601cc458fb6671834cb2">
+        <dex dex="D:\FILE RAFELDO BARU\SOURCES MOBILE\moketsmobile_v105\Mokets_Android_MainFile\Mobile Source\Mokets\app\build\intermediates\pre-dexed\debug\classes_c902c264086ce7f2ca0325efcab8402ea20e09de.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\FILE RAFELDO BARU\SOURCES MOBILE\moketsmobile_v105\Mokets_Android_MainFile\Mobile Source\Mokets\app\libs\android-async-http-1.4.4.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="3bae85a076241828810bf8fbcc12e5891d5fc34c">
+        <dex dex="D:\FILE RAFELDO BARU\SOURCES MOBILE\moketsmobile_v105\Mokets_Android_MainFile\Mobile Source\Mokets\app\build\intermediates\pre-dexed\debug\android-async-http-1.4.4_506fe9710b5fd80b12028f13ded64cdfb245e8c7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\User\.android\build-cache\1d24a849eebbc6255edfd32ba2599fb4002c5f65\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="ac6948cce36f694f3eb3d73a135e298dc4b3527a">
+        <dex dex="D:\FILE RAFELDO BARU\SOURCES MOBILE\moketsmobile_v105\Mokets_Android_MainFile\Mobile Source\Mokets\app\build\intermediates\pre-dexed\debug\classes_936482b1df3d357e6b4c68a7f0abc70ea63f62d2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\User\.android\build-cache\6defd634156bb0ef3863cff2f08909676ef54006\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="ab3193b438e37f7b0a634cc2dfebbf92892ea90c">
+        <dex dex="D:\FILE RAFELDO BARU\SOURCES MOBILE\moketsmobile_v105\Mokets_Android_MainFile\Mobile Source\Mokets\app\build\intermediates\pre-dexed\debug\classes_906419173130e8b55e4c4ac6bb1cd474b92856e3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\User\.gradle\caches\modules-2\files-2.1\com.mcxiaoke.volley\library\1.0.19\a8f23f65fc1e522ee4a1a697ee569901a46741fa\library-1.0.19.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="a8f23f65fc1e522ee4a1a697ee569901a46741fa">
+        <dex dex="D:\FILE RAFELDO BARU\SOURCES MOBILE\moketsmobile_v105\Mokets_Android_MainFile\Mobile Source\Mokets\app\build\intermediates\pre-dexed\debug\library-1.0.19_5ed2a83243312881a60016050e76c52fddb91b45.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\User\.android\build-cache\0b6279655a5d1295c5cc454842fdd780cf7cafea\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="3dee4ce5844d39d843d503fb8fe04e51e5bfffac">
+        <dex dex="D:\FILE RAFELDO BARU\SOURCES MOBILE\moketsmobile_v105\Mokets_Android_MainFile\Mobile Source\Mokets\app\build\intermediates\pre-dexed\debug\classes_d6cbe2eb5c54ff9b88c4c5a1f63562fc30194ab6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\FILE RAFELDO BARU\SOURCES MOBILE\moketsmobile_v105\Mokets_Android_MainFile\Mobile Source\Mokets\app\libs\PayPalAndroidSDK-2.9.10.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="ec5f3d25ec21b18a0127332e63d90adbb582fb34">
+        <dex dex="D:\FILE RAFELDO BARU\SOURCES MOBILE\moketsmobile_v105\Mokets_Android_MainFile\Mobile Source\Mokets\app\build\intermediates\pre-dexed\debug\PayPalAndroidSDK-2.9.10_aeb5d554b5c6d0d886d6ab2cd11a1950e074a2d5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\User\.android\build-cache\3961ebdc629a1fe0976ac267ffa333d5517740dd\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="8a36d229011e75f0caef408e1adf0d3fd4d94e02">
+        <dex dex="D:\FILE RAFELDO BARU\SOURCES MOBILE\moketsmobile_v105\Mokets_Android_MainFile\Mobile Source\Mokets\app\build\intermediates\pre-dexed\debug\classes_52dd3e3ce76c2c9bd86102f7ab5553ccd6677050.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\User\.gradle\caches\modules-2\files-2.1\com.squareup.picasso\picasso\2.5.2\7446d06ec8d4f7ffcc53f1da37c95f200dcb9387\picasso-2.5.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
+        <dex dex="D:\FILE RAFELDO BARU\SOURCES MOBILE\moketsmobile_v105\Mokets_Android_MainFile\Mobile Source\Mokets\app\build\intermediates\pre-dexed\debug\picasso-2.5.2_badcc59626c8bf60fbd570ba883ac0f8d5c9be7a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\User\.android\build-cache\a84b945df1436f879e58f02d53c44263e81b81c7\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d463d8eec1e6c1feef2cec6675ccb47e37c12ee1">
+        <dex dex="D:\FILE RAFELDO BARU\SOURCES MOBILE\moketsmobile_v105\Mokets_Android_MainFile\Mobile Source\Mokets\app\build\intermediates\pre-dexed\debug\classes_7f53603ee21ad9a5fa9182c3b03270f831c068c3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\User\.android\build-cache\a93e41060e6294e51cf6a49cde7a722245e14989\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="0874286cc2fd88d54fdf130e9d5372730da6de97">
+        <dex dex="D:\FILE RAFELDO BARU\SOURCES MOBILE\moketsmobile_v105\Mokets_Android_MainFile\Mobile Source\Mokets\app\build\intermediates\pre-dexed\debug\classes_6805991bb955ec9501fe9f26bf01ae6502e3f199.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\User\.android\build-cache\20027d56909fc07429047178a4c618c8f64e2dd2\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="75c54c470e19b251749e6e6c2cf3d73c0b50aa64">
+        <dex dex="D:\FILE RAFELDO BARU\SOURCES MOBILE\moketsmobile_v105\Mokets_Android_MainFile\Mobile Source\Mokets\app\build\intermediates\pre-dexed\debug\classes_ed87cb7297b1b9fd32d3d2c66a7c4f94b4e20653.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\User\.android\build-cache\7aa630da16e827e7820bef82989bf57e4272d665\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="b70302fafbb8bc4f74df2f648bee8c64ed065849">
+        <dex dex="D:\FILE RAFELDO BARU\SOURCES MOBILE\moketsmobile_v105\Mokets_Android_MainFile\Mobile Source\Mokets\app\build\intermediates\pre-dexed\debug\classes_a2537e0bcaf4b7ac9f107f71f795778a46e97a5b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\User\.android\build-cache\313301d85c7de32cf605f0aa0ee85e472ad51025\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="e454c414a069241ee08444d187f2dd3a702596b5">
+        <dex dex="D:\FILE RAFELDO BARU\SOURCES MOBILE\moketsmobile_v105\Mokets_Android_MainFile\Mobile Source\Mokets\app\build\intermediates\pre-dexed\debug\classes_1c3648f033bb99ad059a2d13e86cd81ed4358167.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Program Files\Android\Android Studio\gradle\m2repository\com\google\code\gson\gson\2.2.4\gson-2.2.4.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="a60a5e993c98c864010053cb901b7eab25306568">
+        <dex dex="D:\FILE RAFELDO BARU\SOURCES MOBILE\moketsmobile_v105\Mokets_Android_MainFile\Mobile Source\Mokets\app\build\intermediates\pre-dexed\debug\gson-2.2.4_313aff129984a0a45e086871ec03bfcc02e7284e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\User\.android\build-cache\c2acb2359742cdcf33950b86f9fcd3318467b709\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="b9d48baf96c7e187991a9befa833bebd181960a9">
+        <dex dex="D:\FILE RAFELDO BARU\SOURCES MOBILE\moketsmobile_v105\Mokets_Android_MainFile\Mobile Source\Mokets\app\build\intermediates\pre-dexed\debug\classes_01223361ad736b3bed500b12e40b9560dc80e025.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\User\.android\build-cache\129fe851946fd4118c8dd67b1565f65480fef6d4\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="734e80dffea7bd76c18ae256822a124c30d85850">
+        <dex dex="D:\FILE RAFELDO BARU\SOURCES MOBILE\moketsmobile_v105\Mokets_Android_MainFile\Mobile Source\Mokets\app\build\intermediates\pre-dexed\debug\classes_3a98049cf62509ebb99fec15e4b0a564e1322e15.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\User\.android\build-cache\39bc2ba6a11c7e0db0df5427988cacbac1d1726a\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="dd763e0269f2854f5828ae62dd968b80bff6a0db">
+        <dex dex="D:\FILE RAFELDO BARU\SOURCES MOBILE\moketsmobile_v105\Mokets_Android_MainFile\Mobile Source\Mokets\app\build\intermediates\pre-dexed\debug\classes_9163b95ff0637237806a5d4eca9c3536f4f1b48c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\User\.android\build-cache\fe66579cb0d87f84f44653379dac85b5e1d8191a\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="5f290d2d6009fa67b4cbd78a5deb4aa5c2349ade">
+        <dex dex="D:\FILE RAFELDO BARU\SOURCES MOBILE\moketsmobile_v105\Mokets_Android_MainFile\Mobile Source\Mokets\app\build\intermediates\pre-dexed\debug\classes_b24aa734da561f6e09cc0098a2cebd9c2caa7435.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\User\.android\build-cache\63b222c92050a32f5448458bdf8c9c495df17f88\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="88848548ab56d4fbf3d2d1b0c85bf1ff9b4c1f4b">
+        <dex dex="D:\FILE RAFELDO BARU\SOURCES MOBILE\moketsmobile_v105\Mokets_Android_MainFile\Mobile Source\Mokets\app\build\intermediates\pre-dexed\debug\classes_22100650cace285c5c47224a6ab04fbb574a1cb3.jar" />
+    </item>
+
+</items>

@@ -1,0 +1,262 @@
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/coordinator_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <android.support.design.widget.AppBarLayout
+            android:id="@+id/app_bar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+            <android.support.v7.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                android:background="?attr/colorPrimary"
+                app:layout_scrollFlags="scroll|enterAlways"
+                app:popupTheme="@style/ThemeOverlay.AppCompat.Light" />
+
+        </android.support.design.widget.AppBarLayout>
+
+        <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fillViewport="true">
+
+            <LinearLayout
+                android:id="@+id/stripe_payment"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/space_13"
+                android:orientation="vertical"
+
+                android:layout_marginTop="@dimen/space_1"
+                android:padding="@dimen/space_1">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:layout_gravity="center_horizontal"
+                        android:layout_width="@dimen/icon_size"
+                        android:layout_height="@dimen/icon_size"
+                        android:src="@drawable/ic_order_momey"
+                        android:id="@+id/order_total"
+                        />
+
+                    <TextView
+                        android:id="@+id/order_title"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/textColorPrimary"
+                        android:paddingLeft="@dimen/space_1"
+                        android:layout_toRightOf="@+id/order_total"
+                        android:layout_alignTop="@+id/order_total"
+                        android:text="@string/order_title"
+                        android:textSize="@dimen/small_title"
+                        android:textStyle="bold"
+                        />
+
+                </RelativeLayout>
+
+                <include layout="@layout/ui_line_black"/>
+
+                <TextView
+                    android:id="@+id/total_amount"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/textColorPrimary"
+                    android:text="@string/total_amount"
+                    android:textSize="@dimen/small_title"
+                    android:paddingTop="@dimen/space_2"
+                    />
+
+                <!--Selected Payment Option-->
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/space_4"
+                    >
+
+                    <ImageView
+                        android:layout_gravity="center_horizontal"
+                        android:layout_width="@dimen/icon_size"
+                        android:layout_height="@dimen/icon_size"
+                        android:src="@drawable/ic_selected"
+                        android:id="@+id/selected_payment_option"
+                        />
+
+                    <TextView
+                        android:id="@+id/selected_payment_title"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/textColorPrimary"
+                        android:paddingLeft="@dimen/space_1"
+                        android:layout_toRightOf="@+id/selected_payment_option"
+                        android:layout_alignTop="@+id/selected_payment_option"
+                        android:text="@string/selected_payment_option"
+                        android:textSize="@dimen/small_title"
+                        android:textStyle="bold"
+                        />
+
+                </RelativeLayout>
+
+                <include layout="@layout/ui_line_black"/>
+
+                <TextView
+                    android:id="@+id/selected_payment"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/textColorPrimary"
+                    android:textSize="@dimen/small_title"
+                    android:paddingTop="@dimen/space_2"
+                    />
+
+                <!--User Information-->
+
+                <!--Selected Payment Option-->
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/space_4"
+                    >
+
+                    <ImageView
+                        android:layout_gravity="center_horizontal"
+                        android:layout_width="@dimen/icon_size"
+                        android:layout_height="@dimen/icon_size"
+                        android:src="@drawable/ic_user_info"
+                        android:id="@+id/user_info_img"
+                        />
+
+                    <TextView
+                        android:id="@+id/user_information"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/textColorPrimary"
+                        android:paddingLeft="@dimen/space_1"
+                        android:layout_toRightOf="@+id/user_info_img"
+                        android:layout_alignTop="@+id/user_info_img"
+                        android:text="@string/user_information"
+                        android:textSize="@dimen/small_title"
+                        android:textStyle="bold"
+                        />
+
+                </RelativeLayout>
+
+                <include layout="@layout/ui_line_black"/>
+
+                <android.support.design.widget.TextInputLayout
+                    android:id="@+id/text_input_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/space_2">
+
+                    <EditText
+                        android:id="@+id/input_name"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/space_5"
+                        android:hint="@string/name"
+                        android:textSize="@dimen/small_title"
+                        android:lines="1" />
+                </android.support.design.widget.TextInputLayout>
+
+                <android.support.design.widget.TextInputLayout
+                    android:id="@+id/text_input_email"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/space_2">
+
+                    <EditText
+                        android:id="@+id/input_email"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/space_5"
+                        android:hint="@string/email"
+                        android:textSize="@dimen/small_title"
+                        android:lines="1" />
+                </android.support.design.widget.TextInputLayout>
+
+                <android.support.design.widget.TextInputLayout
+                    android:id="@+id/text_input_phone"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/space_2">
+
+                    <EditText
+                        android:id="@+id/input_phone"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/space_5"
+                        android:hint="@string/phone"
+                        android:textSize="@dimen/small_title"
+                        android:lines="1" />
+                </android.support.design.widget.TextInputLayout>
+
+                <android.support.design.widget.TextInputLayout
+                    android:id="@+id/text_input_delivery_address"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/space_2">
+
+                    <EditText
+                        android:id="@+id/input_delivery_address"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/space_5"
+                        android:textSize="@dimen/small_title"
+                        android:hint="@string/delivery_address" />
+                </android.support.design.widget.TextInputLayout>
+
+                <android.support.design.widget.TextInputLayout
+                    android:id="@+id/text_input_billing_address"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/space_2">
+
+                    <EditText
+                        android:id="@+id/input_billing_address"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/space_5"
+                        android:textSize="@dimen/small_title"
+                        android:hint="@string/billing_address" />
+                </android.support.design.widget.TextInputLayout>
+
+
+                <Button
+                    android:id="@+id/btn_confirm_checkout"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/button_height"
+                    android:textSize="@dimen/button"
+                    android:textColor="@color/textColorPrimary"
+                    android:background="@color/colorPrimary"
+                    android:paddingLeft="@dimen/space_1"
+                    android:paddingRight="@dimen/space_1"
+                    android:onClick="doConfirmCheckout"
+                    android:layout_marginTop="@dimen/space_3"
+                    android:layout_marginLeft="@dimen/space_3"
+                    android:layout_marginRight="@dimen/space_3"
+                    android:layout_marginBottom="@dimen/space_5"
+                    android:text="@string/confirm_checkout"/>
+
+            </LinearLayout>
+
+
+        </ScrollView>
+
+    </LinearLayout>
+
+
+</android.support.design.widget.CoordinatorLayout>
+

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="request_not_found" type="id">Requested resource not found</item>
+</resources>

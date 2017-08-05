@@ -1,0 +1,79 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.panaceasoft.mokets.fragments.NotificationFragment">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_gravity="center_horizontal"
+        android:orientation="vertical">
+
+
+        <ToggleButton
+            android:id="@+id/toggle_noti"
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:text="On"
+            android:checked="true"
+            />
+
+        <Button
+            android:id="@+id/button_submit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="doSubmit"
+            android:text="@string/submit" />
+
+        <include layout="@layout/ui_line"/>
+
+
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginLeft="@dimen/space_1"
+            android:layout_marginTop="@dimen/space_2">
+
+            <ImageView
+                android:layout_width="@dimen/icon_size"
+                android:layout_height="@dimen/icon_size"
+                android:tint="@color/textColorSecondary"
+                android:src="@drawable/ic_email_black"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/latest_message"
+                android:textSize="@dimen/sub_head"
+                android:textStyle="bold"/>
+
+        </LinearLayout>
+
+
+        <TextView
+            android:id="@+id/latest_push_message"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="@dimen/space_2"
+            android:layout_marginLeft="@dimen/space_1"
+            android:text="@string/latest_message"
+            android:textSize="@dimen/sub_head"
+            />
+
+    </LinearLayout>
+
+</FrameLayout>

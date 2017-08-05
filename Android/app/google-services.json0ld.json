@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "864671255405",
+    "firebase_url": "https://mokets-54365.firebaseio.com",
+    "project_id": "mokets-54365",
+    "storage_bucket": "mokets-54365.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:864671255405:android:a2abaedeea2783a3",
+        "android_client_info": {
+          "package_name": "com.panaceasoft.mokets"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "864671255405-dm01nlun41o22skqfrul3se0k83128fg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.panaceasoft.mokets",
+            "certificate_hash": "F6011054A750E53AED959482A143BE229027992F"
+          }
+        },
+        {
+          "client_id": "864671255405-3qoifkddjls2o35iqndocg6ca79t7e1d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA7ENZoLk2bg8umqLoBSPKy2-Pu6dVY9EY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "864671255405-3qoifkddjls2o35iqndocg6ca79t7e1d.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

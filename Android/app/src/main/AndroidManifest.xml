@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.panaceasoft.mokets">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="com.panaceasoft.mokets.permission.C2D_MESSAGE" />
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+
+    <!-- for card.io card scanning -->
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.camera.autofocus"
+        android:required="false" />
+
+    <application
+        android:allowBackup="true"
+        android:fullBackupContent="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".activities.MainActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.SEARCH" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.app.searchable"
+                android:resource="@xml/searchable" />
+            <!--<meta-data-->
+                <!--android:name="com.google.android.gms.version"-->
+                <!--android:value="@integer/google_play_services_version" />-->
+        </activity>
+        <activity
+            android:name=".activities.DetailActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
+            android:label=""
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.GalleryActivity"
+            android:label="@string/title_activity_gallery"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.SubCategoryActivity"
+            android:label="@string/title_activity_tab"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.SelectedShopActivity"
+            android:label="@string/title_activity_selected_shop"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.InquiryActivity"
+            android:label="@string/title_activity_inquiry"
+            android:screenOrientation="portrait" />
+
+        <meta-data
+            android:name="com.google.android.maps.v2.API_KEY"
+            android:value="AIzaSyD58wrJjZ9h_z6saXdcDaJyiOCySJONdcU" />
+
+        <activity
+            android:name=".activities.ReviewListActivity"
+            android:label="@string/title_activity_review_list"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.UserLoginActivity"
+            android:label="@string/title_activity_user_login"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.ReviewEntry"
+            android:label="@string/title_activity_review_entry"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.ShopInfoActivity"
+            android:label="@string/title_activity_shop_info"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.UserRegisterActivity"
+            android:label="@string/title_activity_user_register"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.EditProfileActivity"
+            android:label="@string/title_activity_edit_profile"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.PasswordUpdateActivity"
+            android:label="@string/title_activity_password_update"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.UserForgotPasswordActivity"
+            android:label="@string/title_activity_user_forgot_password"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".activities.NewsListActivity"
+            android:label="@string/title_activity_news"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.BasketActivity"
+            android:label="@string/title_activity_basket"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.NewsDetailActivity"
+            android:label="@string/title_activity_news_detail"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.SearchResultActivity"
+            android:label="@string/title_activity_search_result"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.PaymentOptionActivity"
+            android:label="@string/title_payment_option"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.CheckoutConfirmActivity"
+            android:label="@string/title_checkout_confirm"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.StripeActivity"
+            android:label="@string/title_stripe"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".activities.TransactionDetailActivity"
+            android:label="@string/transaction_detail"
+            android:screenOrientation="portrait" />
+
+
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_color"
+            android:resource="@color/colorAccent" />
+
+        <service
+            android:name=".utilities.FirebaseMessagingService"
+            android:enabled="true"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT"/>
+            </intent-filter>
+        </service>
+
+
+        <service
+            android:name=".utilities.FirebaseInstanceIDService"
+            android:enabled="true"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT"/>
+            </intent-filter>
+        </service>
+
+    </application>
+
+</manifest>

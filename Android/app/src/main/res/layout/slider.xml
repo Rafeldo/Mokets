@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.rey.material.widget.Slider
+        style="@style/Material.Widget.Slider"
+        android:id="@+id/location_slider"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        app:sl_minValue="1"
+        app:sl_maxValue="50"
+        app:sl_value="25"
+        app:sl_textColor="@android:color/black"
+        app:sl_discreteMode="true"/>
+
+
+    <TextView
+        android:id="@+id/complete_address"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/small_title"
+        android:layout_marginTop="@dimen/space_2"
+        android:layout_marginLeft="@dimen/space_1"
+        android:layout_marginBottom="@dimen/space_2"
+        android:textColor="@android:color/black"
+        />
+
+    <Button
+        android:textColor="@android:color/black"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button_search"
+        android:text="@string/search"
+        />
+
+</LinearLayout>
