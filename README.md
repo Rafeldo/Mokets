@@ -1,8 +1,8 @@
-# Mokets
+# Moket
 Codeigniter + Android 2.3.3 
 
 
-Mokets! It is full application kind of solution to build the Mobile Commerce Application for Android Platform. It might be reduce a lot of hours for development from scratch. RESTFUL API will handle for data transfer in between Mobile App and Backend System. Moreover, Backend is not only content management but also supports Data Analytics module to know easily popular items(Most Interesting Item) from system. 
+Moket! It is full application kind of solution to build the Mobile Commerce Application for Android Platform. It might be reduce a lot of hours for development from scratch. RESTFUL API will handle for data transfer in between Mobile App and Backend System. Moreover, Backend is not only content management but also supports Data Analytics module to know easily popular items(Most Interesting Item) from system. 
 
 
 # Used Technology : 
